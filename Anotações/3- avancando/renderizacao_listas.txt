@@ -1,0 +1,12 @@
+
+		Renderização de Listas
+_____________________________________________________________
+
+- Uma outra ação bem comum é renderizar listas de dados no 
+template
+
+- Fazemos isso com os dados do tipo array
+
+- Utilizando o método map para nos auxiliar
+
+- Além dos dados podemos inserir JSX em cada iteração

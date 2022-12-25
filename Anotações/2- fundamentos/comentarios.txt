@@ -1,0 +1,13 @@
+
+			Comentários
+_____________________________________________________________
+
+- Podemos iserir comentários de duas maneiros no componente
+
+- a parte da função, onde é executada a lógica, a sintaxe é
+: // comentario
+
+- E também no JSX: {/* comentario */}
+
+- As chaves nos permitem executar sentenças em JavaScript,
+veremos isso mais adiante

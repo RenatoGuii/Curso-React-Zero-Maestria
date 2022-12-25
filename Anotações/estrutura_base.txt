@@ -1,0 +1,14 @@
+
+			Estrutura Base
+______________________________________________________________
+
+node_modules -> Onde as depedências do projeto estão
+
+public -> Assets estáticos e HTML de inicialização
+
+src -> Onde vamos programar as nossas apps
+
+src/index.js -> Arquivo de inicialização do React
+
+src/App.js -> Componente principal da aplicação
+

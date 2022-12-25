@@ -1,0 +1,9 @@
+
+			Inicialização
+_____________________________________________________________
+
+- Criar nova aplicação: npx create-react-app <nome>
+
+- Selecionar arquivo: cd <nome>
+
+- Iniciar nova aplicação: npm start

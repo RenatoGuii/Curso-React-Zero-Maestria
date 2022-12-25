@@ -1,0 +1,16 @@
+
+		     Propriedade Key
+____________________________________________________________
+
+- Iterar listas sem a propriedade key nos gera um warning, 
+podemos verificar isso no console
+
+- O React precisa de uma chave única em cada um dos items 
+iterados
+
+- Isso serve para ajudá-lo na renderização do componente
+
+- Geralmente teremos um array de objetos e podemos colocar 
+key como alguma chave única, como id de algum dado
+
+- Em ÚLTIMO CASO devemos utilizar o index do método map

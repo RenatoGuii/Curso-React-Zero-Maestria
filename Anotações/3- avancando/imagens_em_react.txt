@@ -1,0 +1,17 @@
+       	            
+		    Imagens em React
+_____________________________________________________________
+
+- As imagens públicas do nosso projeto podem ficar na pasta 
+*public* ou criando a pasta *assets*(pode ser qualuqer nome)
+ em *src*
+
+- De á elas podem ser chamadas pelas tags <img> diretamente 
+pelo /nome.jpg
+
+- Pois a pasta public fica linkada com o src das imagens
+
+- Em assets precisamos IMPORTAR as imagens, e o src é 
+dinâmico com o nome de importação
+
+- import X from "./assets/x.(jpg/webp)"

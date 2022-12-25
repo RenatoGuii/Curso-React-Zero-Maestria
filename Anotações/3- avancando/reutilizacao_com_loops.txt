@@ -1,0 +1,12 @@
+
+		Reutilização com loop
+____________________________________________________________
+
+- Os arrays de dados podem ter muitos itens também
+
+- Então o correto é utilizar uma estrutura de loop (map) 
+para a sua exibição
+
+- E com isso conseguimos conciliar os 3 conceitos: 
+renderização de listas, reaproveitamento de componentes 
+e props

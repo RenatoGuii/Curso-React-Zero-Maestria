@@ -1,0 +1,20 @@
+
+		Renderização Condicional
+____________________________________________________________
+
+- Renderização Condicional é quando imprimimos uma parte do
+template baseado em uma condição
+
+- Ou seja, utilizando uma checagem com if
+
+- É interessante em situações como: usuário autennticado/
+não autenticado
+
+____________________________________________________________
+
+		Adicionando o uso do ELSE
+____________________________________________________________
+
+- Podemos também realizar um if/else no JSX
+- Aqui devemos utilizar o if ternário
+- Onde temos a sintaxe: condição ? bloco1 : bloco2
