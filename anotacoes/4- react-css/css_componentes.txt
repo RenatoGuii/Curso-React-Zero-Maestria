@@ -1,0 +1,14 @@
+
+		    CSS de Componentes
+____________________________________________________________
+
+- O CSS de componente é utilizado para um componente em 
+específico
+
+- Geralmente é criado um arquivo com o mesmo nome do 
+componente e este é importado no componente
+
+- Note que este método não é scoped, ou seja, o CSS vaza 
+para outros componentes se houver uma regra de colisão
+
+- O React já cria um exemplo desta técnica com o App.css/js
