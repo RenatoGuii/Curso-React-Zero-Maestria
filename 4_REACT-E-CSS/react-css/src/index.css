@@ -9,3 +9,17 @@ h1 {
   text-align: center;
   color: red;
 }
+
+.red-title {
+  background-color: black;
+  color: red;
+  padding: 13px;
+  border: 5px solid red;
+  text-align: center;
+}
+
+.title {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
