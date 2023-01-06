@@ -1,0 +1,18 @@
+
+			useRef
+____________________________________________________________
+
+- É utilizado para manipular elementos HTML sem precisar 
+realizar um render
+
+- Um uso muito comum desse hook é em formulários. Utilizamos
+o DOM, podemos alterar características de elementos HTML
+
+- É usado o current para poder modificar caracteristicas
+do elemento
+
+
+
+
+- Vídeo referência do assunto: 
+https://www.youtube.com/watch?v=eH6CON7fFGw

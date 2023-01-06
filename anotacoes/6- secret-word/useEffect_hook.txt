@@ -1,0 +1,10 @@
+
+			useEffect
+____________________________________________________________
+
+- É uma função que é chamada toda vez que após a página é
+carregada ou atualizada
+
+
+Vídeo Referência -> 
+https://www.youtube.com/watch?v=6id-PtDSnmw
