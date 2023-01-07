@@ -5,6 +5,9 @@ ____________________________________________________________
 - É uma função que é chamada toda vez que após a página é
 carregada ou atualizada
 
+- É usado uma array de depêndencia onde se coloca os 
+elementos que vc quer que o useEffect funcione quando 
+utilizados
 
 Vídeo Referência -> 
-https://www.youtube.com/watch?v=6id-PtDSnmw
+https://www.youtube.com/watch?v=ojzuilNld1s

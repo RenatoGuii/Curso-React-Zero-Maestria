@@ -1,0 +1,16 @@
+
+		Importância do useEffect
+____________________________________________________________
+
+- O useEffect faz com que determinada ação seja executada 
+apenas uma vez
+
+- Isso é interessate pois os componentes estão sempre se 
+re-renderizando
+
+- O useEffect ainda possui um array de dependências, que 
+deve conter os dados que ativem a execução da função de 
+forma aautomática
+
+- O useEffect estará presente sempre nas requisições 
+assíncronas
