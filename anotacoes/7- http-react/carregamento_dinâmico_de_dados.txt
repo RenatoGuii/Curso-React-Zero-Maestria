@@ -1,0 +1,10 @@
+
+	      Carregamento dinâmico de dados
+____________________________________________________________
+
+- Se a requisição foi feita com sucesso, podemos adicionar o 
+item a lista após o request
+
+- Isso torna nossa aplicação mais perfomática
+
+- Utilizaremos o método useState para isso

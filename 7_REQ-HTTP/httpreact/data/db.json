@@ -24,6 +24,31 @@
       "name": "Renato",
       "price": "15",
       "id": 5
+    },
+    {
+      "name": "Teste",
+      "price": "27",
+      "id": 6
+    },
+    {
+      "name": "dinamico",
+      "price": "00",
+      "id": 7
+    },
+    {
+      "name": "teste",
+      "price": "4",
+      "id": 8
+    },
+    {
+      "name": "cadeira",
+      "price": "200",
+      "id": 9
+    },
+    {
+      "name": "pizza",
+      "price": "27",
+      "id": 10
     }
   ]
 }

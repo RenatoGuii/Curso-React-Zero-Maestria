@@ -9,8 +9,7 @@ apenas uma vez
 re-renderizando
 
 - O useEffect ainda possui um array de dependências, que 
-deve conter os dados que ativem a execução da função de 
-forma aautomática
+vai ser ativado se essa variável for alterada
 
 - O useEffect estará presente sempre nas requisições 
 assíncronas
