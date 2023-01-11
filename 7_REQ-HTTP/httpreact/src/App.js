@@ -11,7 +11,7 @@ function App() {
   const [products, setProducts] = useState([])
 
   // 4° Custom 
-  const { data: items, httpConfig } = useFetch(url)
+  const { data: items, httpConfig, loading, error } = useFetch(url)
 
 
   const [name, setName] = useState('')
@@ -42,8 +42,8 @@ const handleSubmit = async (e) => {
   
   /* const res = await fetch(url, {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
+    headers: {application/json'
+      'Content-Type': '
     },
     body: JSON.stringify(product),
   })
@@ -61,16 +61,24 @@ const handleSubmit = async (e) => {
   setPrice('')
 }
 
-
-
+// 8° Deletar Produtos (CHALLENGE)
+const handleRemove = (id) => {
+  httpConfig(id, 'DELETE')
+}
   return (
     <div className="App">
      <h2>Lista de produtos</h2>
-     <ul>
+     {/* 6° Loading */}
+     {loading && <p>Carregando dados...</p>}
+     {error && <p>{error}</p>}
+     {!error && <ul>
+      {/* CHALLENGE */}
       {items && items.map((product) => (
-        <li key={product.id}>{product.name}: R${product.price}</li>
+        <li key={product.id}>{product.name}: R${product.price}
+        <button onClick={() => handleRemove(product.id)}>Excluir</button> 
+        </li>
       ))}
-     </ul>
+     </ul>}
      <div className="add-product">
       <h2>Adicionar produto</h2>
        <form onSubmit={handleSubmit}>
@@ -92,7 +100,9 @@ const handleSubmit = async (e) => {
             onChange={(e) => setPrice(e.target.value)}
           />
         </label>
-        <input type="submit" value="Criar" />
+        {/* 7° State de loading no POST */}
+        {loading && <input type="submit" disabled value="Aguarde" />}
+        {!loading && <input type="submit" value="Criar" />}
        </form>
      </div>
     </div>

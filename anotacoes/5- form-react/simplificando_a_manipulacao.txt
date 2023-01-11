@@ -7,5 +7,5 @@ de forma mais simples
 
 - Basicamente criamos uma função inline no onChange
 
-- Ela vai alterar o valor do state com método set, daa mesma 
+- Ela vai alterar o valor do state com método set, da mesma 
 forma que a função isolada

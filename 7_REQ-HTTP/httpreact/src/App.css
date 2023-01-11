@@ -53,3 +53,7 @@ form input {
   flex-direction: column;
   margin-bottom: 15px;
 }
+
+li {
+  margin-top: 2.5px;
+}
