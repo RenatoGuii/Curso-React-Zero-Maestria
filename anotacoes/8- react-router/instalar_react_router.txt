@@ -1,0 +1,5 @@
+
+		  Instalar React Router
+____________________________________________________________
+
+1° Terminal -> npm i react-router-dom

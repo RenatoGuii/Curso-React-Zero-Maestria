@@ -2,7 +2,7 @@
 		Custom hook para o fetch
 ____________________________________________________________
 
-- É normaçl dividir funções que podem ser reaproveitadas em 
+- É normal dividir funções que podem ser reaproveitadas em 
 hooks
 
 - Esta técnica é chamada de custom hook, e vamos criar um 

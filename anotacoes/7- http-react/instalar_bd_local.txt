@@ -1,0 +1,10 @@
+
+	      Instalar Banco de Dados local (JSON)
+____________________________________________________________
+
+1° package.json (scripts) -> 
+"server": "json-server --watch data/nomeArq.json"
+
+2° terminal -> npm i json-server
+
+3° Terminal -> npm run server
