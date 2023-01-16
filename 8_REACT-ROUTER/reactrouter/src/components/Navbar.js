@@ -9,6 +9,7 @@ const Navbar = () => {
         {/* Link substitui a tag 'a' do HTML */}
         <Link to='/' >Home</Link>
         <Link to='/about' >Sobre</Link>
+        <Link to='/products' >Produtos</Link>
     </nav>
   )
 }
