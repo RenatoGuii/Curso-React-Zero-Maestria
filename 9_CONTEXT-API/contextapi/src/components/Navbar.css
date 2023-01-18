@@ -1,0 +1,15 @@
+.App h1 {
+    color: white;
+}
+
+.App a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.App a:hover {
+    text-decoration: underline;
+    color: white;
+}
