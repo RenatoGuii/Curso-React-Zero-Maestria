@@ -1,0 +1,10 @@
+
+		Alterando Contexto Complexo
+____________________________________________________________
+
+- Para alterar o contexto vamos utilizar uma função chamada 
+
+- Ela estará no reducer também
+
+- E deve conter todas as informações necessárias para a 
+alteração do valor de contexto
