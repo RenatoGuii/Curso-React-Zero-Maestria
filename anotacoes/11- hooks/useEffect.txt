@@ -1,0 +1,26 @@
+
+			useEffect
+____________________________________________________________
+
+- O useEffect é utilizado para várias ações no nosso App, 
+junto com useState é um dos hooks mais utiizados
+
+- Podemos realizar desde alterações na DOM a requisições 
+HTTP
+
+- E o grande motivo é: conseguimos controlar quantas vezes 
+algo acontece
+
+- A sintaxe é formado por uma função a ser executada e um 
+array de dependências
+
+
+		  Array de Dependências
+____________________________________________________________
+
+Sem ele -> Executado com qualquer alteração de valores
+
+Array Vazio -> Executado apenas uma vez quando carregado
+
+Array de depedências -> Executado sempre que alguma variavel 
+do array for alterado

@@ -1,0 +1,13 @@
+
+			useContext
+____________________________________________________________
+
+- O useState é o hook utilizado para consumir um context, 
+da Context API
+
+- Vamos precisar criar o contexto e também o Provider
+
+- Envolver os componentes que receberão os valores 
+compartilhados
+
+- E então fazer o uso do hook onde necessário
