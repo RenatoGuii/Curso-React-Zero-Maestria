@@ -1,0 +1,7 @@
+
+		  useCallback x useMemo
+____________________________________________________________
+
+useCallback -> Fixa funções
+
+useMemo -> Fixa valores
